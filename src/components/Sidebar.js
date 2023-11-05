@@ -1,13 +1,13 @@
 import React from 'react';
 
-function Sidebar() {
+const Sidebar = () => {
   return (
     <aside className="bg-light col-md-3">
       <div className="mb-4">
-        <p className="font-weight-bold">Menu</p>
+        <p className="font-weight-bold text-primary">Menu</p>
         <ul className="nav flex-column">
           <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle" href="/" id="dashboardDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a className="nav-link dropdown-toggle text-dark" href="/" id="dashboardDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Dashboard
             </a>
             <div className="dropdown-menu" aria-labelledby="dashboardDropdown">
@@ -19,7 +19,7 @@ function Sidebar() {
             </div>
           </li>
           <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle" href="/" id="applicationDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a className="nav-link dropdown-toggle text-dark" href="/" id="applicationDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Application
             </a>
             <div className="dropdown-menu" aria-labelledby="applicationDropdown">
@@ -30,44 +30,44 @@ function Sidebar() {
         </ul>
       </div>
       <div className="mb-4">
-        <p className="font-weight-bold">Dashboard Widgets</p>
+        <p className="font-weight-bold text-primary">Dashboard Widgets</p>
         <ul className="nav flex-column">
           <li className="nav-item">
-            <a className="nav-link" href="/">Chart Boxes 1</a>
+            <a className="nav-link text-dark" href="/">Chart Boxes 1</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/">Chart Boxes 2</a>
+            <a className="nav-link text-dark" href="/">Chart Boxes 2</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/">Chart Boxes 3</a>
+            <a className="nav-link text-dark" href="/">Chart Boxes 3</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/">Profile Boxes</a>
+            <a className="nav-link text-dark" href="/">Profile Boxes</a>
           </li>
         </ul>
       </div>
       <div className="mb-4">
-        <p className="font-weight-bold">Forms</p>
+        <p className="font-weight-bold text-primary">Forms</p>
         <ul className="nav flex-column">
           <li className="nav-item">
-            <a className="nav-link" href="/">Elements</a>
+            <a className="nav-link text-dark" href="/">Elements</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/">Widgets</a>
+            <a className="nav-link text-dark" href="/">Widgets</a>
           </li>
         </ul>
       </div>
       <div className="mb-4">
-        <p className="font-weight-bold">Charts</p>
+        <p className="font-weight-bold text-primary">Charts</p>
         <ul className="nav flex-column">
           <li className="nav-item">
-            <a className="nav-link" href="/">ChartJS</a>
+            <a className="nav-link text-dark" href="/">ChartJS</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/">Apex charts</a>
+            <a className="nav-link text-dark" href="/">Apex charts</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/">Chart Sparklines</a>
+            <a className="nav-link text-dark" href="/">Chart Sparklines</a>
           </li>
         </ul>
       </div>

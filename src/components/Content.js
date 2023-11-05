@@ -4,7 +4,7 @@ import { FaArrowAltCircleUp, FaArrowCircleDown, FaDollarSign, FaPlus } from 'rea
 import image1 from '../Images/image1.jpg';
 import image2 from '../Images/image2.png';
 
-function Content() {
+const Content = () => {
   return (
     <div className="col-md-9">
       <main>
